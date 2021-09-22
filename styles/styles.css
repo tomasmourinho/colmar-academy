@@ -1,11 +1,14 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
 /* Global values*/
-
+ html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #344B59;
+ }
 /* Navbar */
 
 header{
@@ -25,14 +28,12 @@ header{
 .logo_colmar{
     font-size: 24px;
     color: #344B59;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
 .logo_academy{
     font-size: 24px;
     color: #75BFBF;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
 
@@ -43,5 +44,38 @@ header{
 
 .nav li{
     padding-left: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section 1 */
+
+.start_here{
+    background-color: #F0F0F2;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#banner{
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.content_start{
+    margin-left: 24px;
+}
+
+.content_start h1{
+    font-size: 50px;
+}
+
+.content_start h3{
+    margin: 20px 0;
+}
+
+.content_start button{
+    color: white;
+    background-color: #589EA6;
+    border: 0;
+    padding: 16px;
+    width: 90%;
 }
