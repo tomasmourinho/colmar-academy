@@ -108,13 +108,16 @@ header{
 
 .practice_right{
     width: 40%;
+   
+
 }
 
 .right_1, .right_2, .right_3{
     display: flex;
     align-items: center;
     margin-bottom: 32px;
-    background-color: red;
+    padding: .5rem 0 .5rem 1rem ;
+    
 }
 
 .orientation, .campus, .guest{
@@ -135,3 +138,24 @@ header{
     padding-right: 16px;
     width: 35%;
 }
+
+/* Section 3 */
+
+.courses{
+    background-color: #F0F0F2;
+    width: 100%;
+    
+
+}
+
+.learning{
+    display: flex;
+    justify-content: center;
+}
+
+.courses-boxes{
+    display: block;
+    padding: 72px 32px;
+}
+
+
