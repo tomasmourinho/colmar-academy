@@ -8,6 +8,7 @@
  html{
     font-family: Arial, Helvetica, sans-serif;
     color: #344B59;
+    line-height: 1.6;
  }
 /* Navbar */
 
@@ -65,11 +66,12 @@ header{
 }
 
 .content_start h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.content_start h3{
+.content_start h2{
     margin: 20px 0;
+    font-weight:lighter;
 }
 
 .content_start button{
@@ -78,4 +80,58 @@ header{
     border: 0;
     padding: 16px;
     width: 90%;
+}
+
+/* Section 2 */
+
+.practice{
+    display: flex;
+    width: 100%;
+    align-items: space-between;
+    margin: 32px 0 32px 24px;
+}
+
+.practice_left{
+    margin-right: 24px;
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+.practice_left h3{
+    margin: 32px 0 24px 0;
+}
+
+.practice_left p{
+    margin-bottom: 32px;
+}
+
+.practice_right{
+    width: 40%;
+}
+
+.right_1, .right_2, .right_3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    background-color: red;
+}
+
+.orientation, .campus, .guest{
+    width: 65%;
+}
+
+.right_3{
+    background-color: #F0F0F2;
+}
+
+.practice_right a{
+    text-decoration: none;
+    color: #75BFBF;
+}
+
+.right_1 img, .right_2 img, .right_3 img{
+    height: auto;
+    padding-right: 16px;
+    width: 35%;
 }
