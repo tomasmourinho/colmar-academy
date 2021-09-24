@@ -141,21 +141,21 @@ header{
 
 /* Section 3 */
 
-.courses{
-    background-color: #F0F0F2;
-    width: 100%;
-    
-
-}
-
 .learning{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 32px;
+    width: 100%;
+
 }
 
-.courses-boxes{
-    display: block;
-    padding: 72px 32px;
+.software-engineering img, .computer-art img, .design img {
+    width: 100%;
+    height: auto;
 }
 
-
+.course-boxes{
+    display: flex;
+}
