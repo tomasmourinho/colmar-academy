@@ -142,7 +142,7 @@ header{
 }
 
 /* Section 3 */
-.courses h1 {
+.learning h1 {
     text-align: center;
     padding: 32px 0 32px 0;
   }
@@ -150,11 +150,10 @@ header{
   .courses {
     display: flex;
     flex-direction: column;
-    background-color: #F0F0F2;
 }
 
 .learning {
-     background-color: #d8d8d8;
+     background-color: #F0F0F2;
      padding: 2rem 3.5rem;
 }
     
@@ -189,47 +188,4 @@ header{
 }
 
 /* Section 4 */
-
-.thesis {
-    width: 100%;
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .thesis_content {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .thesis_content .featured {
-    padding-top: 0;
-  }
-
-  .thesis_content .featured .pic {
-    width: 100%;
-  }
-
-  .thesis_content .featured .pic video {
-    width: 100%;
-  }
-
-  .thesis_content .others .card_pic {
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .thesis_content .others .card_pic .pic {
-    width: 35%;
-  }
-
-  .thesis_content .others .card_pic .pic img {
-    width: 100%;
-    height: auto;
-  }
-.card_pic {
-  width: 100%;
-}
 
