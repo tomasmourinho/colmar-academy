@@ -67,6 +67,7 @@ header, .links{
     background-color: #589EA6;  
     width: 70%;
     font-size: 18px;
+    color: white;
 }
 
 #start-here:hover{
@@ -74,7 +75,7 @@ header, .links{
     color: #589EA6;
 }
 
-/* Section 3 */
+/* Section 2 */
 
 .practice{
     display: flex;
@@ -91,6 +92,59 @@ header, .links{
 
 .practice-right{
     width: 40%;
+    padding-top: 32px;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: #F0F0F2;
 }
 
+.cards{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F0F0F2;
+}
 
+.cards img{
+    width: 35%;
+    padding: 16px;
+}
+
+.card-txt{
+    width: 65%;
+}
+
+.card-txt a{
+    text-decoration: none;
+    color: #75BFBF;
+}
+
+#color-card{
+    background-color: #F0F0F2;
+}
+
+/* Section 3 */
+
+.start{
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F2;
+    align-content: space-between;
+}
+
+.start-header h1{
+    padding-top: 32px
+    display: flex;
+}
+
+.start-cards-above{
+    padding: 32px 72px;
+    display: flex;
+}
+
+.card-course img{
+    height: auto;
+    width: 80%;
+}
