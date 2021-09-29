@@ -114,6 +114,7 @@ header, .links{
 
 .card-txt{
     width: 65%;
+    padding-right: 36px;
 }
 
 .card-txt a{
@@ -128,23 +129,47 @@ header, .links{
 /* Section 3 */
 
 .start{
-    display: flex;
-    justify-content: center;
     background-color: #F0F0F2;
-    align-content: space-between;
+    width: 100%;
 }
 
-.start-header h1{
-    padding-top: 32px
+.start h1{
+    padding-top: 32px;
+    justify-content: center;
     display: flex;
 }
 
 .start-cards-above{
     padding: 32px 72px;
     display: flex;
+    justify-content: center;
 }
 
-.card-course img{
-    height: auto;
-    width: 80%;
+.card-course{
+    width: 30%;
+    background-color: white;
+    margin: 0 1rem;
+
+}
+
+.start .card-course .course-img{
+    width: 100%;
+}
+
+.start .card-course .course-img img{
+    width: 100%;
+}
+
+.course-description p{
+    color: #8798a2;
+}
+
+.course-description{
+    padding: 0 36px;
+}
+
+.start-cards-below{
+    display: flex;
+    justify-content: center;
+    padding: 0 72px 32px 72px;
 }
