@@ -6,9 +6,13 @@
 
 /* Global values*/
 html{
-    color:#344B59
+    color:#344B59;
+    font-family: open sans;
 }
 
+h1{
+   font-weight:700
+}
 /* Navbar */
 
 header, .links{
@@ -131,10 +135,10 @@ header, .links{
 .start{
     background-color: #F0F0F2;
     width: 100%;
+    padding-top: 32px;
 }
 
 .start h1{
-    padding-top: 32px;
     justify-content: center;
     display: flex;
 }
@@ -236,3 +240,20 @@ header, .links{
 #color-card-2{
     background-color: #F0F0F2;
 }
+
+/* Footer */
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+
+.footer-right{
+    display: flex;
+}
+
+.footer-right p{
+    padding-left: 16px;
+}
+
