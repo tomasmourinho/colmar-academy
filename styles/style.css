@@ -8,12 +8,21 @@
 html{
     color:#344B59;
     font-family: open sans;
+    line-height: normal;
 }
 
 h1{
    font-weight:700
 }
 /* Navbar */
+
+@media only screen and (min-width: 801px)
+
+{
+    .mobile{
+        display: none;
+    }
+
 
 header, .links{
     display: flex;
@@ -227,6 +236,10 @@ header, .links{
     padding: 16px;
 }
 
+.mobile img{
+    display: none;
+}
+
 .card-txt{
     width: 65%;
     padding-right: 36px;
@@ -257,3 +270,67 @@ header, .links{
     padding-left: 16px;
 }
 
+}
+
+/* Mobile version */
+
+@media only screen and (max-width: 800px)
+{
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12px;
+    }
+
+    .learn{
+        width: 100%;
+    }
+
+    .learn img{
+        width: 100%;
+    }
+
+    .learn-content{
+        padding: 0 12px 32px 12px;
+    }
+
+    #start-here{
+        padding: 16px; 
+        border: 0;
+        background-color: #589EA6;  
+        width: 100%;
+        font-size: 18px;
+        color: white;
+    }
+
+    .practice-left{
+        display: none;
+    }
+    
+    .practice-right{
+        padding: 16px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-txt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cards img{
+        width: 100%;
+        height: auto;
+    }
+}
