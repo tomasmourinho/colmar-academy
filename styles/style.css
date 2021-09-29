@@ -173,3 +173,66 @@ header, .links{
     justify-content: center;
     padding: 0 72px 32px 72px;
 }
+
+/* Section 4 */
+
+.thesis{
+    display: flex;
+}
+
+.thesis-content h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+}
+
+.thesis-col{
+    display: flex;
+    flex-direction: row;
+}
+
+.thesis-left{
+    padding: 32px 24px;
+    width: 60%;
+}
+
+.thesis-left video{
+    width: 100%;
+}
+
+.thesis-right{
+    width: 40%;
+    padding-top: 32px;
+}
+
+.thesis-right .cards{
+    border-style: none !important;
+}
+
+.cards{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F0F0F2;
+}
+
+.cards img{
+    width: 35%;
+    padding: 16px;
+}
+
+.card-txt{
+    width: 65%;
+    padding-right: 36px;
+}
+
+.card-txt a{
+    text-decoration: none;
+    color: #75BFBF;
+}
+
+#color-card-2{
+    background-color: #F0F0F2;
+}
